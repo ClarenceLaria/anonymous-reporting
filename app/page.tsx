@@ -3,7 +3,7 @@ import { techStackProducts } from "@/components/data/techstack";
 
 export default function Home() {
   return (
-    <div className="w-full h-screen">
+    <div className="w-full h-full">
       <HeroParallax products={techStackProducts}/>
     </div>
   );

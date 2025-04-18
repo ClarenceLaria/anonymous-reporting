@@ -4,37 +4,37 @@ export const techStackProducts = [
   {
     title: "GitHub",
     link: "https://github.com/ClarenceLaria",
-    thumbnail: `https://api.screenshotone.com/take?access_key=${access_key}&url=https%3A%2F%2Fgithub.com&format=jpg&block_ads=true&block_cookie_banners=true&block_banners_by_heuristics=false&block_trackers=true&delay=0&timeout=60&response_type=by_format&image_quality=80`,
+    thumbnail: '/images/github.jpeg',
   },
   {
     title: "Git",
     link: "https://git-scm.com/",
-    thumbnail: `https://api.screenshotone.com/take?access_key=${access_key}&url=https%3A%2F%2Fgit-scm.com&format=jpg&block_ads=true&block_cookie_banners=true&block_banners_by_heuristics=false&block_trackers=true&delay=0&timeout=60&response_type=by_format&image_quality=80`,
+    thumbnail: '/images/git.jpeg',
   },
   {
     title: "React",
     link: "https://reactjs.org/",
-    thumbnail: `https://api.screenshotone.com/take?access_key=${access_key}&url=https%3A%2F%2Freactjs.org&format=jpg&block_ads=true&block_cookie_banners=true&block_banners_by_heuristics=false&block_trackers=true&delay=0&timeout=60&response_type=by_format&image_quality=80`,
+    thumbnail: '/images/react.jpeg',
   },
   {
     title: "Next.js",
     link: "https://nextjs.org/",
-    thumbnail: `https://api.screenshotone.com/take?access_key=${access_key}&url=https%3A%2F%2Fnextjs.org&format=jpg&block_ads=true&block_cookie_banners=true&block_banners_by_heuristics=false&block_trackers=true&delay=0&timeout=60&response_type=by_format&image_quality=80`,
+    thumbnail: '/images/next.jpeg',
   },
   {
     title: "Tailwind CSS",
     link: "https://tailwindcss.com/",
-    thumbnail: `https://api.screenshotone.com/take?access_key=${access_key}&url=https%3A%2F%2Ftailwindcss.com&format=jpg&block_ads=true&block_cookie_banners=true&block_banners_by_heuristics=false&block_trackers=true&delay=0&timeout=60&response_type=by_format&image_quality=80`,
+    thumbnail: '/images/tailwindcss.jpeg',
   },
   {
     title: "Node.js",
     link: "https://nodejs.org/",
-    thumbnail: `https://api.screenshotone.com/take?access_key=${access_key}&url=https%3A%2F%2Fnodejs.org&format=jpg&block_ads=true&block_cookie_banners=true&block_banners_by_heuristics=false&block_trackers=true&delay=0&timeout=60&response_type=by_format&image_quality=80`,
+    thumbnail: '/images/node.jpeg',
   },
   {
     title: "TypeScript",
     link: "https://www.typescriptlang.org/",
-    thumbnail: `https://api.screenshotone.com/take?access_key=${access_key}&url=https%3A%2F%2Fwww.typescriptlang.org&format=jpg&block_ads=true&block_cookie_banners=true&block_banners_by_heuristics=false&block_trackers=true&delay=0&timeout=60&response_type=by_format&image_quality=80`,
+    thumbnail: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
   },
   {
     title: "JavaScript",
@@ -44,36 +44,36 @@ export const techStackProducts = [
   {
     title: "Figma",
     link: "https://www.figma.com/",
-    thumbnail: `https://api.screenshotone.com/take?access_key=${access_key}&url=https%3A%2F%2Fwww.figma.com&format=jpg&block_ads=true&block_cookie_banners=true&block_banners_by_heuristics=false&block_trackers=true&delay=0&timeout=60&response_type=by_format&image_quality=80`,
+    thumbnail: '/images/figma.jpeg',
   },
   {
     title: "Vercel",
     link: "https://vercel.com/",
-    thumbnail: `https://api.screenshotone.com/take?access_key=${access_key}&url=https%3A%2F%2Fvercel.com&format=jpg&block_ads=true&block_cookie_banners=true&block_banners_by_heuristics=false&block_trackers=true&delay=0&timeout=60&response_type=by_format&image_quality=80`,
+    thumbnail: '/images/vercel.jpeg',
   },
   {
     title: "Prisma",
     link: "https://www.prisma.io/",
-    thumbnail: `https://api.screenshotone.com/take?access_key=${access_key}&url=https%3A%2F%2Fwww.prisma.io&format=jpg&block_ads=true&block_cookie_banners=true&block_banners_by_heuristics=false&block_trackers=true&delay=0&timeout=60&response_type=by_format&image_quality=80`,
+    thumbnail: '/images/prisma.jpeg',
   },
   {
     title: "PostgreSQL",
     link: "https://www.postgresql.org/",
-    thumbnail: `https://api.screenshotone.com/take?access_key=${access_key}&url=https%3A%2F%2Fwww.postgresql.org&format=jpg&block_ads=true&block_cookie_banners=true&block_banners_by_heuristics=false&block_trackers=true&delay=0&timeout=60&response_type=by_format&image_quality=80`,
+    thumbnail: '/images/postgresql.jpeg',
   },
   {
     title: "MongoDB",
     link: "https://www.mongodb.com/",
-    thumbnail: `https://api.screenshotone.com/take?access_key=${access_key}&url=https%3A%2F%2Fwww.mongodb.com&format=jpg&block_ads=true&block_cookie_banners=true&block_banners_by_heuristics=false&block_trackers=true&delay=0&timeout=60&response_type=by_format&image_quality=80`,
+    thumbnail: '/images/mongodb.jpeg',
   },
   {
     title: "LeetCode",
     link: "https://leetcode.com/",
-    thumbnail: `https://api.screenshotone.com/take?access_key=${access_key}&url=https%3A%2F%2Fwww.mongodb.com&format=jpg&block_ads=true&block_cookie_banners=true&block_banners_by_heuristics=false&block_trackers=true&delay=0&timeout=60&response_type=by_format&image_quality=80`,
+    thumbnail: '/images/leetcode.jpeg',
   },
   {
     title: "Aceternity UI",
     link: "https://ui.aceternity.com/",
-    thumbnail: `https://api.screenshotone.com/take?access_key=${access_key}&url=https%3A%2F%2Fwww.mongodb.com&format=jpg&block_ads=true&block_cookie_banners=true&block_banners_by_heuristics=false&block_trackers=true&delay=0&timeout=60&response_type=by_format&image_quality=80`,
+    thumbnail: '/images/aceternity.jpeg',
   },
 ];
