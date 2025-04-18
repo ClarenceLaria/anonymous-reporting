@@ -1,9 +1,10 @@
-import Image from "next/image";
+import { HeroParallax } from "@/components/ui/hero-parallax";
+import { techStackProducts } from "@/components/data/techstack";
 
 export default function Home() {
   return (
-    <div className="w-full h-full">
-      Hello
+    <div className="w-full h-screen">
+      <HeroParallax products={techStackProducts}/>
     </div>
   );
 }
