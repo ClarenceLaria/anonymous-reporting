@@ -4,6 +4,7 @@ import MyGithubCalendar from "@/components/github-calendar";
 import AboutSection from "@/components/about";
 import Experience from "@/components/experience";
 import ProjectsSection from "@/components/projects-section";
+import TechStacks from "@/components/TechStacks";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <MyGithubCalendar/>
       <AboutSection/>
       <ProjectsSection/>
+      <TechStacks/>
     </div>
   );
 }
