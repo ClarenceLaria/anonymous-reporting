@@ -2,6 +2,10 @@
 
 import Image from "next/image";
 import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/buttons";
+import { ArrowRight } from "lucide-react";
+import { FaLink } from "react-icons/fa6";
+import Link from "next/link";
 
 interface Tech {
   name: string;
@@ -32,7 +36,7 @@ export default function ProjectCard({
       <p className="text-base text-slate-700 dark:text-slate-300 mb-4">{description}</p>
 
       <div className="rounded-lg overflow-hidden mb-4">
-        <a href={link} target="_blank" rel="noopener noreferrer">
+        <Link href={link} target="_blank" rel="noopener noreferrer">
           <Image
             src={image}
             alt={title}
@@ -40,7 +44,7 @@ export default function ProjectCard({
             height={500}
             className="w-full h-auto object-cover rounded-lg transition hover:scale-105"
           />
-        </a>
+        </Link>
       </div>
 
       <div className="flex flex-wrap gap-2 mt-2">
@@ -51,6 +55,13 @@ export default function ProjectCard({
           </Badge>
         ))}
       </div>
+      <Link href={link} target="_blank">
+        <Button className="gap-x-2 mt-8 cursor-pointer">
+          <FaLink className="w-[1.2rem] h-[1.2rem]" />
+          Visit website
+          <ArrowRight className="w-[1.2rem] h-[1.2rem]" />      
+        </Button>
+      </Link>
     </div>
   );
 }

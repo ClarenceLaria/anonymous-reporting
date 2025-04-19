@@ -1,6 +1,6 @@
 // app/projects/page.tsx or components/ProjectsSection.tsx
 import ProjectCard from "@/components/project-card";
-import { projects } from "@/components/data/projects";
+import { projects } from "@/components/data/projectsList";
 
 export default function ProjectsSection() {
   return (
