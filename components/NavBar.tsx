@@ -1,6 +1,7 @@
 'use client'
 import React, { useState } from 'react'
 import { MobileNav, MobileNavHeader, MobileNavMenu, MobileNavToggle, Navbar, NavbarButton, NavbarLogo, NavBody, NavItems } from "@/components/ui/nav-bar";
+import { ThemeToggle } from './ThemeToggle';
 
 const navLinks = [
     { name: "Home", link: "/" },
@@ -16,9 +17,8 @@ export default function NavBar() {
         <Navbar>
             {/* Desktop Nav */}
             <NavBody>
-            <NavbarLogo />
-            <NavItems items={navLinks} />
-            <NavbarButton href="#get-started">Get Started</NavbarButton>
+                <NavbarLogo />
+                <NavItems items={navLinks} button={<ThemeToggle/>} />
             </NavBody>
 
             {/* Mobile Nav */}
