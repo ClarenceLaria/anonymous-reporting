@@ -25,6 +25,7 @@ export default function AboutSection() {
           const wordStart = index * 0.008;
           const wordEnd = wordStart + 0.15;
 
+          // eslint-disable-next-line react-hooks/rules-of-hooks
           const opacity = useTransform(
             scrollYProgress,
             [wordStart, wordEnd],

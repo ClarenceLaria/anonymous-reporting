@@ -2,7 +2,6 @@
 
 import Image from "next/image";
 import { Button } from "./ui/buttons";
-import { FaDiscord } from "react-icons/fa6";
 import Link from "next/link";
 
 const techStack = [

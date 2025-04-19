@@ -1,5 +1,3 @@
-const access_key = process.env.NEXT_PUBLIC_SCREENSHOTONE_ACCESS_KEY;
-
 export const techStackProducts = [
   {
     title: "GitHub",
